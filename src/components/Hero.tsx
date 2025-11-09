@@ -36,9 +36,18 @@ const Hero = () => {
             loading="eager"
           />
           
-          <p className="text-xl md:text-2xl text-spa-cream mb-8 animate-fade-in-delay font-light tracking-wide">
-            Experience the healing traditions of Russian Banya in the heart of Mahipalpur, New Delhi
+          <h1 className="text-2xl md:text-3xl text-gold mb-4 animate-fade-in-delay font-semibold tracking-wide">
+            Delhi NCR's Premier Luxury Spa & Wellness Center
+          </h1>
+          <p className="text-xl md:text-2xl text-spa-cream mb-6 animate-fade-in-delay font-light tracking-wide">
+            Experience the authentic healing traditions of Russian Banya, Thai therapy, and world-class massage treatments in the heart of Mahipalpur, New Delhi
           </p>
+          <div className="flex flex-wrap justify-center gap-4 text-spa-cream mb-8 text-sm md:text-base">
+            <span className="flex items-center gap-2">✓ 10 Min from Delhi Airport</span>
+            <span className="flex items-center gap-2">✓ Open 24/7</span>
+            <span className="flex items-center gap-2">✓ Certified Therapists</span>
+            <span className="flex items-center gap-2">✓ Authentic Russian Banya</span>
+          </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-delay-2">
             <Button 

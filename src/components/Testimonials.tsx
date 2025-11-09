@@ -49,6 +49,38 @@ const testimonials = [
     date: "October 2025",
     text: "Found this gem while staying in Aerocity for work. The hot stone therapy was absolutely heavenly after a stressful week of meetings. The therapist was professional and the treatment room was spotless. Very easy to book via WhatsApp. Will definitely return on my next Delhi trip. Best spa near Delhi Airport without question!",
     service: "Hot Stone Therapy"
+  },
+  {
+    name: "Amit Verma",
+    location: "Gurgaon, Haryana",
+    rating: 5,
+    date: "November 2025",
+    text: "I drive from Gurgaon monthly for their sports massage and it's worth every minute of the journey. As a marathon runner, I need serious therapeutic work, not just relaxation. Their therapist understands sports injuries and muscle recovery perfectly. The deep tissue work has significantly improved my performance and recovery time. Highly professional establishment with reasonable prices for the quality provided.",
+    service: "Sports Massage"
+  },
+  {
+    name: "Neha & Rohan",
+    location: "Vasant Kunj, Delhi",
+    rating: 5,
+    date: "September 2025",
+    text: "We've tried many couple's spa packages across Delhi, but Russian Spa Centre offers the best value and experience. The couples room is beautifully designed, very private and romantic. Both therapists were synchronized perfectly, and they remembered it was our anniversary with a special setup. The Russian Banya before the massage was an incredible unique experience. We're now regular monthly visitors!",
+    service: "Couple's Spa Package"
+  },
+  {
+    name: "David Chen",
+    location: "Business Traveler, Singapore",
+    rating: 5,
+    date: "October 2025",
+    text: "I travel to Delhi frequently for work and have visited many spas near the airport. This is by far the best. The Thai massage was authentic - the therapist clearly trained in Thailand. Facility is modern, clean, and the location is incredibly convenient. I always book a session during my Delhi trips now. Pricing is also very reasonable compared to hotel spas in Aerocity.",
+    service: "Thai Massage"
+  },
+  {
+    name: "Mrs. Kavita Mehta",
+    location: "Defence Colony, Delhi",
+    rating: 5,
+    date: "November 2025",
+    text: "At 65, I was hesitant about massage therapy, but my daughter insisted we try. I'm so glad we did! The therapist was gentle, respectful, and explained everything. They customized the Swedish massage perfectly for my arthritis and mobility issues. I felt 20 years younger afterwards! The senior citizen discount is much appreciated. I now come twice a month and it's helped my joint pain tremendously.",
+    service: "Swedish Massage"
   }
 ];
 

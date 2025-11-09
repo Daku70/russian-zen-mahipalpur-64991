@@ -2,7 +2,9 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import LocationBenefits from "@/components/LocationBenefits";
 import Testimonials from "@/components/Testimonials";
+import FAQ from "@/components/FAQ";
 import BookingForm from "@/components/BookingForm";
 import FloatingCallButton from "@/components/FloatingCallButton";
 import Footer from "@/components/Footer";
@@ -22,7 +24,9 @@ const Index = () => {
         <Hero />
         <Services />
         <WhyChooseUs />
+        <LocationBenefits />
         <Testimonials />
+        <FAQ />
         <BookingForm />
         <Footer />
         <FloatingCallButton />
