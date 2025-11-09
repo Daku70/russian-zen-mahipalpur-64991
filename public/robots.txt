@@ -12,3 +12,11 @@ Allow: /
 
 User-agent: *
 Allow: /
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://mahipalpurspacentre.com/sitemap.xml
+
+# Disallow admin or test pages if any
+Disallow: /admin/
+Disallow: /test/

@@ -248,6 +248,39 @@ const articles = [
 ];
 
 const BlogPage = () => {
+  // Structured data for blog
+  const blogStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Russian Spa Centre Wellness Blog",
+    "description": "Expert wellness articles on Russian Banya, spa treatments, and holistic health",
+    "url": "https://mahipalpurspacentre.com/blog",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Russian Spa Centre - Mahipalpur",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://mahipalpurspacentre.com/assets/logo.png"
+      }
+    },
+    "blogPost": articles.map(article => ({
+      "@type": "BlogPosting",
+      "headline": article.title,
+      "datePublished": new Date(article.date).toISOString(),
+      "author": {
+        "@type": "Person",
+        "name": article.author
+      },
+      "description": article.excerpt,
+      "url": `https://mahipalpurspacentre.com/blog#${article.slug}`,
+      "image": "https://mahipalpurspacentre.com/assets/hero-spa.jpg",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Russian Spa Centre - Mahipalpur"
+      }
+    }))
+  };
+
   return (
     <>
       <SEO 
@@ -255,7 +288,13 @@ const BlogPage = () => {
         description="Expert wellness articles on Russian Banya benefits, choosing the best spa near Delhi Airport, hygiene standards, massage techniques, and holistic health from Russian Spa Centre."
         keywords="Russian Banya benefits, spa near Delhi airport, wellness blog Delhi, massage tips, spa hygiene standards, Russian spa articles, Mahipalpur wellness"
         canonical="https://mahipalpurspacentre.com/blog"
+        ogType="blog"
       />
+      
+      {/* Structured Data for Blog */}
+      <script type="application/ld+json">
+        {JSON.stringify(blogStructuredData)}
+      </script>
       <main className="min-h-screen bg-background">
         <Header />
         <div className="pt-20">

@@ -2,7 +2,7 @@ import { MapPin, Phone, Mail, Clock } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-spa-dark border-t border-border py-12">
+    <footer className="bg-spa-dark border-t border-border py-12" role="contentinfo">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
@@ -12,41 +12,42 @@ const Footer = () => {
             </p>
           </div>
 
-          <div>
+          <address className="not-italic">
             <h3 className="text-gold text-xl font-bold mb-4">Contact Us</h3>
             <div className="space-y-3">
               <div className="flex items-start gap-2 text-muted-foreground">
-                <MapPin className="h-5 w-5 text-gold shrink-0 mt-1" />
+                <MapPin className="h-5 w-5 text-gold shrink-0 mt-1" aria-hidden="true" />
                 <a 
                   href="https://maps.app.goo.gl/2LTFUUiwPaqB2Y1c7" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:text-gold transition-smooth"
+                  aria-label="View Russian Spa Centre location on Google Maps"
                 >
                   Office No - 118, Defence Enclave, Adjoining Aerocity, Mahipalpur, New Delhi, Delhi 110037
                 </a>
               </div>
               <div className="flex items-center gap-2 text-muted-foreground">
-                <Phone className="h-5 w-5 text-gold shrink-0" />
-                <a href="tel:+919818931148" className="hover:text-gold transition-smooth">
+                <Phone className="h-5 w-5 text-gold shrink-0" aria-hidden="true" />
+                <a href="tel:+919818931148" className="hover:text-gold transition-smooth" aria-label="Call Russian Spa Centre">
                   +91 98189 31148
                 </a>
               </div>
               <div className="flex items-center gap-2 text-muted-foreground">
-                <Mail className="h-5 w-5 text-gold shrink-0" />
-                <a href="mailto:info@russianspacentre.com" className="hover:text-gold transition-smooth">
+                <Mail className="h-5 w-5 text-gold shrink-0" aria-hidden="true" />
+                <a href="mailto:info@russianspacentre.com" className="hover:text-gold transition-smooth" aria-label="Email Russian Spa Centre">
                   info@russianspacentre.com
                 </a>
               </div>
             </div>
-          </div>
+          </address>
 
           <div>
             <h3 className="text-gold text-xl font-bold mb-4">Opening Hours</h3>
             <div className="space-y-2 text-muted-foreground mb-4">
               <div className="flex items-center gap-2">
-                <Clock className="h-5 w-5 text-gold shrink-0" />
-                <span>Open 24 Hours</span>
+                <Clock className="h-5 w-5 text-gold shrink-0" aria-hidden="true" />
+                <time>Open 24 Hours</time>
               </div>
               <p className="ml-7">Monday - Sunday</p>
             </div>
@@ -81,6 +82,13 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-border">
           <div className="text-center text-muted-foreground mb-4">
             <p>&copy; {new Date().getFullYear()} Russian Spa Centre. All rights reserved.</p>
+            <nav className="mt-4 flex justify-center gap-6 text-sm" aria-label="Footer navigation">
+              <a href="/about" className="hover:text-gold transition-smooth">About</a>
+              <a href="/services" className="hover:text-gold transition-smooth">Services</a>
+              <a href="/prices" className="hover:text-gold transition-smooth">Prices</a>
+              <a href="/contact" className="hover:text-gold transition-smooth">Contact</a>
+              <a href="/blog" className="hover:text-gold transition-smooth">Blog</a>
+            </nav>
           </div>
           
           {/* SEO Keywords Section */}

@@ -54,10 +54,10 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <section className="py-20 bg-spa-dark" id="testimonials">
+    <section className="py-20 bg-spa-dark" id="testimonials" aria-labelledby="testimonials-heading">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gold mb-4">
+        <header className="text-center mb-16">
+          <h2 id="testimonials-heading" className="text-4xl md:text-5xl font-bold text-gold mb-4">
             What Our Clients Say
           </h2>
           <p className="text-xl text-spa-cream max-w-3xl mx-auto font-light">
@@ -72,7 +72,7 @@ const Testimonials = () => {
             <span className="text-2xl font-bold text-gold">4.8</span>
             <span className="text-spa-cream">based on 350+ reviews</span>
           </div>
-        </div>
+        </header>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {testimonials.map((testimonial, index) => (

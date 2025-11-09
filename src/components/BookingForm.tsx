@@ -56,20 +56,20 @@ const BookingForm = () => {
   };
 
   return (
-    <section className="py-20 bg-background" id="booking">
+    <section className="py-20 bg-background" id="booking" aria-labelledby="booking-heading">
       <div className="container mx-auto px-4">
         <div className="max-w-2xl mx-auto">
           <Card className="bg-card border-border shadow-elegant">
             <CardHeader className="text-center">
-              <CardTitle className="text-4xl text-gold mb-2">Book Your Experience</CardTitle>
+              <CardTitle id="booking-heading" className="text-4xl text-gold mb-2">Book Your Experience</CardTitle>
               <CardDescription className="text-lg text-muted-foreground">
                 Fill in the form below and we'll get back to you shortly
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form onSubmit={handleSubmit} className="space-y-6" aria-label="Spa booking form">
                 <div className="space-y-2">
-                  <Label htmlFor="name" className="text-foreground">Full Name</Label>
+                  <Label htmlFor="name" className="text-foreground">Full Name *</Label>
                   <Input
                     id="name"
                     type="text"
@@ -77,11 +77,13 @@ const BookingForm = () => {
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     className="bg-input border-border text-foreground"
+                    required
+                    aria-required="true"
                   />
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="phone" className="text-foreground">Phone Number</Label>
+                  <Label htmlFor="phone" className="text-foreground">Phone Number *</Label>
                   <Input
                     id="phone"
                     type="tel"
@@ -89,11 +91,13 @@ const BookingForm = () => {
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                     className="bg-input border-border text-foreground"
+                    required
+                    aria-required="true"
                   />
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="email" className="text-foreground">Email Address</Label>
+                  <Label htmlFor="email" className="text-foreground">Email Address *</Label>
                   <Input
                     id="email"
                     type="email"
@@ -101,13 +105,15 @@ const BookingForm = () => {
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                     className="bg-input border-border text-foreground"
+                    required
+                    aria-required="true"
                   />
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="service" className="text-foreground">Select Service</Label>
-                  <Select value={formData.service} onValueChange={(value) => setFormData({ ...formData, service: value })}>
-                    <SelectTrigger className="bg-input border-border text-foreground">
+                  <Label htmlFor="service" className="text-foreground">Select Service *</Label>
+                  <Select value={formData.service} onValueChange={(value) => setFormData({ ...formData, service: value })} required>
+                    <SelectTrigger className="bg-input border-border text-foreground" aria-label="Choose spa service">
                       <SelectValue placeholder="Choose a service" />
                     </SelectTrigger>
                     <SelectContent>

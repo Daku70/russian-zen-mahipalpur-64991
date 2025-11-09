@@ -23,13 +23,14 @@ const Header = () => {
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50">
+    <header className="fixed top-0 left-0 right-0 z-50" role="banner">
       <div className="flex items-center justify-between p-4 bg-spa-brown/95 backdrop-blur-sm border-b border-gold/20">
         <a 
           href="tel:+919818931148" 
           className="flex items-center gap-2 text-gold hover:text-gold/80 transition-smooth"
+          aria-label="Call Russian Spa Centre at +91 98189 31148"
         >
-          <Phone className="h-5 w-5" />
+          <Phone className="h-5 w-5" aria-hidden="true" />
           <span className="text-sm md:text-base font-semibold">+91 98189 31148</span>
         </a>
         
@@ -39,15 +40,16 @@ const Header = () => {
               variant="outline" 
               size="icon"
               className="bg-spa-dark/90 backdrop-blur-sm border-gold/30 hover:bg-spa-dark hover:border-gold shadow-elegant"
+              aria-label="Open navigation menu"
             >
-              <Menu className="h-6 w-6 text-gold" />
+              <Menu className="h-6 w-6 text-gold" aria-hidden="true" />
             </Button>
           </SheetTrigger>
         <SheetContent className="bg-spa-brown border-l-gold/30 z-[100]">
           <SheetHeader>
-            <SheetTitle className="text-gold text-2xl">Menu</SheetTitle>
+            <SheetTitle className="text-gold text-2xl">Navigation Menu</SheetTitle>
           </SheetHeader>
-          <nav className="flex flex-col gap-4 mt-8">
+          <nav className="flex flex-col gap-4 mt-8" aria-label="Main navigation">
             {menuItems.map((item, index) => (
               <Button
                 key={index}

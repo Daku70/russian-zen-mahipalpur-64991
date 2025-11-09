@@ -2,16 +2,16 @@ import { Check, Award, Users, Heart, Sparkles, Clock, Shield, Star } from "lucid
 
 const WhyChooseUs = () => {
   return (
-    <section className="py-20 bg-spa-dark" id="why-choose-us">
+    <section className="py-20 bg-spa-dark" id="why-choose-us" aria-labelledby="why-choose-heading">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gold mb-4">
+        <header className="text-center mb-16">
+          <h2 id="why-choose-heading" className="text-4xl md:text-5xl font-bold text-gold mb-4">
             Why We're NCR's Premier Spa & Wellness Center
           </h2>
           <p className="text-xl text-spa-cream max-w-3xl mx-auto font-light">
             Discover what makes us the most trusted and preferred spa destination in the National Capital Region
           </p>
-        </div>
+        </header>
 
         <div className="max-w-6xl mx-auto">
           {/* Opening Statement */}

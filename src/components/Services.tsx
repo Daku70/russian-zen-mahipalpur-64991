@@ -83,14 +83,14 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="py-20 bg-spa-brown" id="services">
+    <section className="py-20 bg-spa-brown" id="services" aria-labelledby="services-heading">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gold mb-4">Our Services</h2>
+        <header className="text-center mb-16">
+          <h2 id="services-heading" className="text-4xl md:text-5xl font-bold text-gold mb-4">Our Premium Spa Services</h2>
           <p className="text-xl text-spa-cream max-w-2xl mx-auto font-light">
             Experience authentic Russian spa treatments designed to rejuvenate your body and mind
           </p>
-        </div>
+        </header>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
@@ -125,8 +125,9 @@ const Services = () => {
                 <Button 
                   onClick={() => window.location.href = "tel:+919818931148"}
                   className="w-full bg-gradient-to-r from-gold to-gold-light hover:opacity-90 text-spa-dark font-semibold transition-smooth"
+                  aria-label={`Book ${service.title} appointment`}
                 >
-                  <Phone className="mr-2 h-4 w-4" />
+                  <Phone className="mr-2 h-4 w-4" aria-hidden="true" />
                   Call Now to Book
                 </Button>
               </CardContent>
