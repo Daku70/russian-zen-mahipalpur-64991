@@ -79,6 +79,40 @@ const Footer = () => {
           </div>
         </div>
 
+        {/* Popular Spa Locations Section */}
+        <div className="mt-12 pt-8 border-t border-border">
+          <h3 className="text-2xl font-bold text-center text-foreground mb-6">Popular Spa Locations in Delhi</h3>
+          <div className="text-center text-lg text-muted-foreground space-y-2">
+            <p>Spa in Aerocity, Delhi - Spa in Mahipalpur, Delhi - Body Massage in Dwarka, Delhi</p>
+          </div>
+        </div>
+
+        {/* Our Keywords Section */}
+        <div className="mt-12 pt-8 border-t border-border">
+          <h3 className="text-2xl font-bold text-center text-foreground mb-6">Our Keywords</h3>
+          <div className="text-center text-muted-foreground leading-relaxed">
+            <p>
+              Russian Spa Centre, Authentic Russian Banya, Body Massage, Full Body Massage, Spa Services, 
+              Deep Tissue Massage, Swedish Massage, Aromatherapy Massage, Hot Stone Massage, Aroma Oil Massage, 
+              Balinese Massage, Thai Massage, Relaxation Therapy, Beauty Treatments, Wellness Services, 
+              Couples Package, Professional Therapists, Mahipalpur, Aerocity, Dwarka, Delhi NCR
+            </p>
+          </div>
+        </div>
+
+        {/* Book Your Appointment Section */}
+        <div className="mt-12 pt-8 border-t border-border">
+          <h3 className="text-2xl font-bold text-center text-foreground mb-6">Book Your Appointment</h3>
+          <div className="text-center text-muted-foreground leading-relaxed max-w-3xl mx-auto">
+            <p className="text-lg mb-4">
+              Call us at <a href="tel:+919818931148" className="text-gold font-bold hover:text-gold-light transition-smooth">+91 98189 31148</a> or fill out our <a href="#booking" className="text-gold font-bold hover:text-gold-light transition-smooth">Online Form</a> to reserve your spot.
+            </p>
+            <p className="text-lg">
+              Open daily <span className="font-bold text-gold">24 hours</span>, we offer <span className="font-bold">24-Hour Massage Services</span> and <span className="font-bold">Couples Packages</span> for maximum flexibility.
+            </p>
+          </div>
+        </div>
+
         <div className="mt-12 pt-8 border-t border-border">
           <div className="text-center text-muted-foreground mb-4">
             <p>&copy; {new Date().getFullYear()} Russian Spa Centre. All rights reserved.</p>
