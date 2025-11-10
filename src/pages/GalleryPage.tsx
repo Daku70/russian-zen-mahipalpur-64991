@@ -53,12 +53,12 @@ const GalleryPage = () => {
               {galleryImages.map((image, index) => (
                 <div 
                   key={index} 
-                  className="group relative overflow-hidden rounded-lg shadow-elegant hover:shadow-glow transition-smooth aspect-[4/3]"
+                  className="group relative overflow-hidden rounded-lg shadow-elegant hover:shadow-glow transition-smooth bg-spa-dark/20"
                 >
                   <img 
                     src={image.src} 
                     alt={image.alt}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-smooth"
+                    className="w-full h-auto object-contain group-hover:scale-105 transition-smooth"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-spa-dark/80 to-transparent opacity-0 group-hover:opacity-100 transition-smooth flex items-end">
                     <h3 className="text-gold font-serif text-xl p-6">{image.title}</h3>
