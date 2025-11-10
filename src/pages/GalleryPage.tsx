@@ -9,6 +9,10 @@ import aromatherapyImg from "@/assets/aromatherapy.jpg";
 import swedishImg from "@/assets/swedish.jpg";
 import coupleImg from "@/assets/couple-spa.jpg";
 import facialImg from "@/assets/facial.jpg";
+import model3 from "@/assets/model_3.jpg";
+import model4 from "@/assets/model_4.jpg";
+import model5 from "@/assets/model_5.jpg";
+import model6 from "@/assets/model_6.jpg";
 
 const GalleryPage = () => {
   const galleryImages = [
@@ -19,6 +23,10 @@ const GalleryPage = () => {
     { src: swedishImg, alt: "Swedish massage relaxation", title: "Swedish Massage" },
     { src: coupleImg, alt: "Couple's spa experience", title: "Couple's Spa" },
     { src: facialImg, alt: "Premium facial treatment", title: "Facial Treatment" },
+    { src: model6, alt: "Spa wellness and relaxation experience", title: "Wellness Experience" },
+    { src: model5, alt: "Luxury spa ambiance and beauty treatments", title: "Beauty Treatment" },
+    { src: model4, alt: "Professional spa services in Delhi NCR", title: "Professional Service" },
+    { src: model3, alt: "Serene spa environment in Mahipalpur", title: "Serene Environment" },
   ];
 
   return (
