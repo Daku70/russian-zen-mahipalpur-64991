@@ -4,6 +4,7 @@ import Services from "@/components/Services";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import LocationBenefits from "@/components/LocationBenefits";
 import AdditionalContent from "@/components/AdditionalContent";
+import LocationSEO from "@/components/LocationSEO";
 import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import BookingForm from "@/components/BookingForm";
@@ -27,6 +28,7 @@ const Index = () => {
         <WhyChooseUs />
         <LocationBenefits />
         <AdditionalContent />
+        <LocationSEO />
         <Testimonials />
         <FAQ />
         <BookingForm />
