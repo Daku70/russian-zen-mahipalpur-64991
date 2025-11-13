@@ -39,20 +39,64 @@ const LocationSEO = () => {
         <div className="max-w-6xl mx-auto mb-16">
           <div className="bg-card border border-border rounded-lg p-8 md:p-12 mb-8">
             <h3 className="text-3xl font-bold text-gold mb-6">
-              Russian Spa in Aerocity - Perfect for International Travelers
+              Russian Spa in Aerocity - Perfect for International Travelers & Business Executives
             </h3>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p className="text-lg">
-                Located minutes from Delhi's business hub, our <strong className="text-foreground">Russian spa in Aerocity</strong> is the top choice for international travelers and business guests staying at luxury hotels. When you're at JW Marriott, Pullman, Andaz, or any Aerocity hotel and search for <strong className="text-foreground">"Russian spa near me,"</strong> we're your closest premium wellness destination. Our <strong className="text-foreground">Russian spa in Aerocity</strong> location offers unmatched convenience for airport travelers.
+                Located minutes from Delhi's international airport and business hub, our <strong className="text-foreground">Russian spa in Aerocity</strong> is the top choice for international travelers, airline crew, and business guests staying at luxury hotels. When you're at JW Marriott, Pullman, Andaz, Roseate, Radisson Blu, Holiday Inn, or any Aerocity hotel and search for <strong className="text-foreground">"Russian spa near me,"</strong> we're your closest premium wellness destination. Our <strong className="text-foreground">Russian spa in Aerocity</strong> location offers unmatched convenience for airport travelers seeking authentic Russian wellness.
               </p>
               <p className="text-lg">
-                The <strong className="text-foreground">Russian spa in Aerocity</strong> experience is tailored for international clientele who appreciate authentic Russian wellness traditions. Many pilots, flight attendants, and frequent flyers make our <strong className="text-foreground">Russian spa in Aerocity</strong> their regular stop during Delhi layovers. We offer special express services for travelers with limited time, ensuring you can enjoy a complete Russian Banya experience even between flights.
+                The <strong className="text-foreground">Russian spa in Aerocity</strong> experience is meticulously tailored for international clientele who appreciate authentic Russian wellness traditions and demand excellence. Many pilots, flight attendants, frequent flyers, and business travelers make our <strong className="text-foreground">Russian spa in Aerocity</strong> their regular stop during Delhi layovers and business trips. We offer special express services designed specifically for travelers with limited time, ensuring you can enjoy a complete Russian Banya experience, therapeutic massage, or body treatment even between flights or business meetings.
               </p>
               <p className="text-lg">
-                Our <strong className="text-foreground">Russian spa in Aerocity</strong> provides secure luggage storage, so you can arrive directly from IGI Airport, enjoy your treatment, and continue to your hotel refreshed. The proximity makes our <strong className="text-foreground">Russian spa in Aerocity</strong> ideal for jet lag recovery, featuring specialized massage techniques that help reset your body clock and combat travel fatigue.
+                Our <strong className="text-foreground">Russian spa in Aerocity</strong> provides secure luggage storage and complimentary shuttle service from nearby hotels, so you can arrive directly from IGI Airport Terminal 3, enjoy your treatment in complete comfort, and continue to your hotel refreshed and rejuvenated. The strategic proximity makes our <strong className="text-foreground">Russian spa in Aerocity</strong> ideal for jet lag recovery, featuring specialized Russian massage techniques, contrast therapy, and Banya rituals that help reset your body clock and combat travel fatigue effectively.
               </p>
               <p className="text-lg">
-                Business travelers hosting meetings at Aerocity convention centers find our <strong className="text-foreground">Russian spa in Aerocity</strong> perfect for pre-meeting relaxation or post-conference unwinding. Our 24/7 availability means that whether your flight lands at 3 AM or you finish a late meeting at 11 PM, our <strong className="text-foreground">Russian spa in Aerocity</strong> is always ready to serve you. Simply search <strong className="text-foreground">"Russian spa near me"</strong> when in Aerocity, and discover our exceptional services.
+                Business travelers hosting meetings at Aerocity convention centers, attending conferences at hotel ballrooms, or conducting business at nearby corporate offices find our <strong className="text-foreground">Russian spa in Aerocity</strong> perfect for pre-meeting relaxation or post-conference unwinding. Our 24/7 availability means that whether your international flight lands at 3 AM or you finish a late business dinner at 11 PM, our <strong className="text-foreground">Russian spa in Aerocity</strong> is always ready to serve you with authentic Russian wellness treatments.
+              </p>
+              <p className="text-lg">
+                The <strong className="text-foreground">Russian spa in Aerocity</strong> environment is designed to transport you from the stress of travel to a sanctuary of relaxation. Our authentic Russian Banya facilities, traditional Venik birch leaf treatments, contrast showers, and specialized Russian massage techniques make our <strong className="text-foreground">Russian spa in Aerocity</strong> a true oasis for weary travelers. Corporate clients appreciate our executive packages that combine therapeutic massage with traditional Russian steam treatments for maximum stress relief in minimum time.
+              </p>
+              <p className="text-lg">
+                International visitors staying in Aerocity hotels often search <strong className="text-foreground">"Russian spa near me"</strong> looking for genuine Russian wellness services, and our <strong className="text-foreground">Russian spa in Aerocity</strong> consistently exceeds expectations. We accept international credit cards, offer services in multiple languages including Russian, English, Hindi, and more, and maintain international hygiene standards that global travelers expect. Whether you're in Aerocity for 6 hours or 6 days, our <strong className="text-foreground">Russian spa in Aerocity</strong> provides an authentic Russian wellness experience that will make your Delhi visit memorable.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Russian Spa in Mahipalpur Section */}
+        <div className="max-w-6xl mx-auto mb-16">
+          <div className="bg-spa-dark rounded-lg p-8 md:p-12 mb-8">
+            <h3 className="text-3xl font-bold text-gold mb-6">
+              Russian Spa in Mahipalpur - Convenient Airport Area Wellness Hub
+            </h3>
+            <div className="space-y-4 text-spa-cream leading-relaxed">
+              <p className="text-lg">
+                Our <strong>Russian spa in Mahipalpur</strong> serves the thriving airport community and surrounding residential areas with authentic Russian wellness services at competitive prices. Located in the heart of Mahipalpur, one of Delhi's busiest transit zones, our <strong>Russian spa in Mahipalpur</strong> is the perfect destination for airport workers, hotel staff, local residents, and travelers seeking genuine Russian spa treatments. When you search <strong>"Russian spa near me"</strong> from Mahipalpur, you'll find our conveniently located facility offering world-class Russian Banya and massage services.
+              </p>
+              <p className="text-lg">
+                The <strong>Russian spa in Mahipalpur</strong> location strategically serves multiple communities—from the bustling hotel district near IGI Airport to the residential colonies of Mahipalpur Village, Mahipalpur Extension, and surrounding areas including Rangpuri, Ghitorni, and Rajokri. Our <strong>Russian spa in Mahipalpur</strong> brings authentic Russian wellness traditions to this vibrant neighborhood where international culture meets local hospitality. We've designed our services to cater to both short-term visitors and long-term residents who value quality Russian spa treatments.
+              </p>
+              <p className="text-lg">
+                What distinguishes our <strong>Russian spa in Mahipalpur</strong> is our deep understanding of the area's unique demographics. We serve airline crew members who live in Mahipalpur between flights, hotel industry professionals working demanding shifts, and local families seeking affordable luxury. Our <strong>Russian spa in Mahipalpur</strong> offers flexible timing and special packages designed for shift workers, airline personnel, and hospitality professionals who need relaxation on non-traditional schedules. Unlike expensive hotel spas, our <strong>Russian spa in Mahipalpur</strong> provides authentic Russian treatments at prices that respect your budget.
+              </p>
+              <p className="text-lg">
+                The <strong>Russian spa in Mahipalpur</strong> experience includes all traditional Russian wellness services—authentic Banya steam rituals, Venik birch leaf treatments, therapeutic Russian massage, contrast therapy, and specialized body treatments using genuine Russian techniques and imported products. Our therapists at the <strong>Russian spa in Mahipalpur</strong> location are trained in centuries-old Russian healing methods, ensuring every treatment delivers authentic results. From deep tissue massage to gentle relaxation therapy, our <strong>Russian spa in Mahipalpur</strong> offers comprehensive Russian wellness services.
+              </p>
+              <p className="text-lg">
+                Travelers with layovers at IGI Airport often search <strong>"Russian spa near me"</strong> seeking quick rejuvenation before their next flight, and our <strong>Russian spa in Mahipalpur</strong> is ideally positioned just minutes from all three terminals. We offer express packages specifically designed for transit passengers—60-minute, 90-minute, and 2-hour Russian spa experiences that fit perfectly into layover schedules. Our <strong>Russian spa in Mahipalpur</strong> provides complimentary airport pickup and drop-off for packages over 90 minutes, making your layover productive and relaxing.
+              </p>
+              <p className="text-lg">
+                Local residents from Mahipalpur Village, Rangpuri Village, and nearby colonies have embraced our <strong>Russian spa in Mahipalpur</strong> as their neighborhood wellness sanctuary. Families appreciate our couple's packages, group bookings, and regular customer discounts that make frequent visits affordable. The <strong>Russian spa in Mahipalpur</strong> has become a community fixture where locals can experience international wellness standards without traveling to expensive South Delhi or Gurgaon locations.
+              </p>
+              <p className="text-lg">
+                Our <strong>Russian spa in Mahipalpur</strong> also caters to the area's significant hospitality industry workforce. Hotel managers, concierges, restaurant staff, and other hospitality professionals working in Mahipalpur's numerous hotels trust our <strong>Russian spa in Mahipalpur</strong> for stress relief after demanding shifts. We understand the physical toll of hospitality work and have developed specialized Russian massage treatments at our <strong>Russian spa in Mahipalpur</strong> that address common issues like back pain, foot fatigue, and work-related stress.
+              </p>
+              <p className="text-lg">
+                When searching for authentic Russian wellness in South West Delhi, our <strong>Russian spa in Mahipalpur</strong> stands out for its commitment to genuine Russian traditions combined with modern amenities and hygiene standards. Unlike generic spas that simply add "Russian" to their name, our <strong>Russian spa in Mahipalpur</strong> delivers real Russian Banya experiences, traditional Venik treatments, and massage techniques that have been perfected over centuries in Russia. Every detail—from our steam room design to our massage oils—reflects authentic Russian spa culture.
+              </p>
+              <p className="text-lg">
+                The <strong>Russian spa in Mahipalpur</strong> facility features separate treatment areas for individuals and couples, private Banya rooms, modern shower facilities, comfortable relaxation lounges, and all amenities international travelers expect. We maintain strict hygiene protocols, use premium linens and towels, and ensure complete privacy for all clients. Whether you're a first-time visitor searching <strong>"Russian spa near me"</strong> or a regular client, our <strong>Russian spa in Mahipalpur</strong> consistently delivers exceptional service and authentic Russian wellness experiences.
               </p>
             </div>
           </div>
