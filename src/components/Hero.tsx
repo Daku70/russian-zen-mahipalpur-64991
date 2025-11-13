@@ -36,8 +36,8 @@ const Hero = () => {
             loading="eager"
           />
           
-          <h1 className="text-2xl md:text-3xl text-gold mb-4 animate-fade-in-delay font-semibold tracking-wide">
-            Delhi NCR's Premier Luxury Spa & Wellness Center
+          <h1 className="text-2xl md:text-4xl text-gold mb-4 animate-fade-in-delay font-bold tracking-wide">
+            Best Russian Spa in Mahipalpur | Authentic Russian Banya Near Delhi Airport
           </h1>
           <p className="text-xl md:text-2xl text-spa-cream mb-6 animate-fade-in-delay font-light tracking-wide">
             Experience the authentic healing traditions of Russian Banya, Thai therapy, and world-class massage treatments in the heart of Mahipalpur, New Delhi
