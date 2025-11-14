@@ -15,6 +15,7 @@ const services = [
     price: "₹2,500",
     duration: "60 minutes",
     image: banyaImage,
+    alt: "Authentic Russian Banya steam bath treatment with traditional Venik birch leaves at Russian Spa Centre Mahipalpur near Delhi Airport",
   },
   {
     title: "Deep Tissue Massage",
@@ -22,6 +23,7 @@ const services = [
     price: "₹3,500",
     duration: "90 minutes",
     image: deepTissueImage,
+    alt: "Professional deep tissue massage therapy for chronic pain relief and muscle tension at Russian Spa Mahipalpur Aerocity",
   },
   {
     title: "Hot Stone Therapy",
@@ -29,6 +31,7 @@ const services = [
     price: "₹4,000",
     duration: "90 minutes",
     image: massageImage,
+    alt: "Hot stone massage therapy with heated volcanic basalt stones for deep relaxation and muscle tension relief at Russian Spa Centre Mahipalpur",
   },
   {
     title: "Aromatherapy Massage",
@@ -36,6 +39,7 @@ const services = [
     price: "₹3,000",
     duration: "75 minutes",
     image: aromatherapyImage,
+    alt: "Aromatherapy massage with premium essential oils and therapeutic touch for stress relief at Russian Spa Mahipalpur Aerocity Delhi",
   },
   {
     title: "Swedish Massage",
@@ -43,6 +47,7 @@ const services = [
     price: "₹2,800",
     duration: "60 minutes",
     image: swedishImage,
+    alt: "Swedish massage therapy with long flowing strokes for relaxation and stress relief at Russian Spa Centre near Delhi Airport",
   },
   {
     title: "Couple's Spa Package",
@@ -50,6 +55,7 @@ const services = [
     price: "₹7,500",
     duration: "120 minutes",
     image: coupleSpaImage,
+    alt: "Romantic couples spa package with synchronized massage and Russian Banya for anniversary celebration at Russian Spa Mahipalpur",
   },
   {
     title: "Thai Massage",
@@ -57,6 +63,7 @@ const services = [
     price: "₹3,200",
     duration: "75 minutes",
     image: massageImage,
+    alt: "Traditional Thai massage with acupressure and assisted yoga stretching for flexibility and energy at Russian Spa Aerocity Delhi",
   },
   {
     title: "Sports Massage",
@@ -64,6 +71,7 @@ const services = [
     price: "₹3,800",
     duration: "60 minutes",
     image: deepTissueImage,
+    alt: "Sports massage therapy for athletes with targeted muscle work for performance and injury prevention at Russian Spa Mahipalpur",
   },
   {
     title: "Reflexology",
@@ -71,6 +79,7 @@ const services = [
     price: "₹2,200",
     duration: "45 minutes",
     image: swedishImage,
+    alt: "Reflexology foot massage therapy targeting pressure points for healing and stress relief at Russian Spa Centre Delhi",
   },
   {
     title: "Shiatsu Massage",
@@ -78,6 +87,7 @@ const services = [
     price: "₹3,500",
     duration: "60 minutes",
     image: aromatherapyImage,
+    alt: "Shiatsu massage with Japanese finger pressure technique for energy balance and natural healing at Russian Spa Mahipalpur Aerocity",
   },
 ];
 
@@ -102,11 +112,11 @@ const Services = () => {
                 className="h-48 bg-cover bg-center"
                 style={{ backgroundImage: `url(${service.image})` }}
                 role="img"
-                aria-label={`${service.title} treatment at Russian Spa Centre`}
+                aria-label={service.alt}
               >
                 <img 
                   src={service.image} 
-                  alt={`${service.title} - ${service.description.substring(0, 100)}...`}
+                  alt={service.alt}
                   className="sr-only"
                   loading="lazy"
                 />
