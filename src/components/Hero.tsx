@@ -37,10 +37,10 @@ const Hero = () => {
           />
           
           <h1 className="text-2xl md:text-4xl text-gold mb-4 animate-fade-in-delay font-bold tracking-wide">
-            Best Russian Spa in Mahipalpur | Authentic Russian Banya Near Delhi Airport
+            Russian Spa in Aerocity & Mahipalpur | Book Appointment for Relaxation Therapy
           </h1>
           <p className="text-xl md:text-2xl text-spa-cream mb-6 animate-fade-in-delay font-light tracking-wide">
-            Experience the authentic healing traditions of Russian Banya, Thai therapy, and world-class massage treatments in the heart of Mahipalpur, New Delhi
+            Premium Russian Spa in Aerocity & Mahipalpur. Book your appointment online for authentic relaxation therapy, Russian Banya, and therapeutic massage treatments near Delhi Airport
           </p>
           <div className="flex flex-wrap justify-center gap-4 text-spa-cream mb-8 text-sm md:text-base">
             <span className="flex items-center gap-2">✓ 10 Min from Delhi Airport</span>
@@ -54,8 +54,9 @@ const Hero = () => {
               size="lg" 
               onClick={scrollToBooking}
               className="bg-gradient-to-r from-gold to-gold-light hover:opacity-90 text-spa-dark font-semibold text-lg px-8 py-6 shadow-gold transition-smooth"
+              aria-label="Book appointment for Russian spa in Aerocity"
             >
-              Book Appointment
+              Book Appointment Online
             </Button>
             <Button 
               size="lg" 
