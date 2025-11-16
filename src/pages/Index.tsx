@@ -4,6 +4,7 @@ import Services from "@/components/Services";
 import TrustSignals from "@/components/TrustSignals";
 import ServiceComparison from "@/components/ServiceComparison";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import RelaxationTherapy from "@/components/RelaxationTherapy";
 import PricingTransparency from "@/components/PricingTransparency";
 import LocationBenefits from "@/components/LocationBenefits";
 import AdditionalContent from "@/components/AdditionalContent";
@@ -24,9 +25,9 @@ const Index = () => {
   return (
     <>
       <SEO 
-        title="Best Russian Spa in Mahipalpur Delhi | #1 Body Massage Near Airport - Open 24/7 | 350+ Reviews"
-        description="★★★★★ #1 Rated Russian Spa in Mahipalpur, Aerocity & Delhi NCR. Authentic Russian Banya, Couples Spa, Thai & Deep Tissue Massage. 10,000+ Happy Clients. ISO Certified. Book Now ☎ +91 98189 31148"
-        keywords="Russian spa Mahipalpur, Russian Banya near Delhi airport, body massage Mahipalpur, couples spa Aerocity, Thai massage Delhi, deep tissue massage, spa near me, Russian spa Gurgaon, Russian spa Dwarka, Russian spa Vasant Kunj, best spa in Mahipalpur, aromatherapy massage Delhi, sports massage Aerocity, Swedish massage Mahipalpur, hot stone therapy Delhi NCR"
+        title="Russian Spa in Aerocity & Mahipalpur | Book Appointment Online | Relaxation Therapy Near Delhi Airport"
+        description="★★★★★ Best Russian Spa in Aerocity, Mahipalpur Delhi. Book Appointment Online for Relaxation Therapy, Russian Banya, Deep Tissue & Couples Massage. Open 24/7. ISO Certified. ☎ +91 98189 31148"
+        keywords="Russian spa in Aerocity, Russian spa Aerocity Delhi, Book Appointment spa Mahipalpur, Relaxation Therapy near airport, Russian spa Mahipalpur, Russian Banya Aerocity, body massage Aerocity, couples spa Aerocity Mahipalpur, Thai massage Aerocity, deep tissue massage Delhi, spa near me Aerocity, book spa appointment online, Russian massage therapy, relaxation therapy Delhi NCR, Swedish massage Mahipalpur, aromatherapy Aerocity"
         canonical="https://mahipalpurspacentre.com/"
       />
       <OrganizationSchema />
@@ -36,6 +37,7 @@ const Index = () => {
         <Hero />
         <TrustSignals />
         <Services />
+        <RelaxationTherapy />
         <ServiceComparison />
         <WhyChooseUs />
         <PricingTransparency />
