@@ -1,9 +1,18 @@
 import { Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useState, useEffect } from "react";
 import logo from "@/assets/logo.png";
 import heroImage from "@/assets/hero-spa.jpg";
 
 const Hero = () => {
+  const [imagesLoaded, setImagesLoaded] = useState(false);
+
+  useEffect(() => {
+    const img = new Image();
+    img.src = heroImage;
+    img.onload = () => setImagesLoaded(true);
+  }, []);
+
   const handleCallNow = () => {
     window.location.href = "tel:+919818931148";
   };
@@ -15,7 +24,7 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden" aria-label="Hero section">
       <div 
-        className="absolute inset-0 z-0"
+        className={`absolute inset-0 z-0 transition-opacity duration-500 ${imagesLoaded ? 'opacity-100' : 'opacity-0'}`}
         style={{
           backgroundImage: `url(${heroImage})`,
           backgroundSize: "cover",
@@ -25,6 +34,7 @@ const Hero = () => {
         role="img"
         aria-label="Luxurious spa treatment room with relaxing ambiance"
       />
+      <div className="absolute inset-0 z-0 bg-spa-dark" style={{ opacity: imagesLoaded ? 0 : 1, transition: 'opacity 0.5s' }} />
       
       <div className="container mx-auto px-4 z-10 text-center">
         <div className="max-w-4xl mx-auto">
